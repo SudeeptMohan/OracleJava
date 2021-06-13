@@ -17,7 +17,7 @@ public class BreakDemo {
             if (arrayOfInts[i] == searchfor) {
                 foundIt = true;
                 break;
-            }
+            }	
         }
 
         if (foundIt) {

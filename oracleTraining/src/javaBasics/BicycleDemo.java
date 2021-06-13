@@ -3,8 +3,8 @@ package javaBasics;
 public class BicycleDemo {
 
 	public static void main(String[] args) {
-		Bicycle bike1 = new Bicycle();
-		Bicycle bike2 = new Bicycle();
+		Bicycle bike1 = new Bicycle(0,0,0);
+		Bicycle bike2 = new Bicycle(0,0,0);
 
 		bike1.changeCadence(50);
 		bike1.changeGear(2);
